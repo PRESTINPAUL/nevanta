@@ -1,0 +1,133 @@
+/**font start*/
+@font-face {
+	font-family: Montserrat Regular;
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular/Montserrat-Regular.otf') format('opentype'), url('Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: Helvetica;
+	src: url('../fonts/HelveticaNeue.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: HelveticaNeue;
+	src: url('../fonts/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue/HelveticaNeue.otf') format('opentype'), url('../fonts/HelveticaNeue/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue/HelveticaNeue.ttf') format('truetype'), url('../fonts/HelveticaNeue/HelveticaNeue.svg#HelveticaNeue') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'helveticaneuebold';
+	src: url('../fonts/halventicaneue_bold/helveticaneue-bold-webfont.eot');
+	src: url('../fonts/halventicaneue_bold/helveticaneue-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/halventicaneue_bold/helveticaneue-bold-webfont.woff') format('woff'), url('../fonts/halventicaneue_bold/helveticaneue-bold-webfont.ttf') format('truetype'), url('../fonts/halventicaneue_bold/helveticaneue-bold-webfont.svg#helveticaneuebold') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Avenir-Roman';
+	src: url('../fonts/Avenir-Roman/Avenir-Roman.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir-Roman/Avenir-Roman.otf') format('opentype'), url('../fonts/Avenir-Roman/Avenir-Roman.woff') format('woff'), url('../fonts/Avenir-Roman/Avenir-Roman.ttf') format('truetype'), url('../fonts/Avenir-Roman/Avenir-Roman.svg#Avenir-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+/*end font**/
+
+/*header menu start*/
+.toggle-navigationv2 ul li a {
+    background: #000 !important;
+}
+.toggle-navigationv2 ul ul li a {
+    background: #000 !important;   
+}
+.menu-homemenu-container {
+    border-top: 1px solid;
+}
+.toggle-navigationv2{
+	background-color:#000;	
+}
+.close-nav {
+    background: #FFF !important;
+    color: #000 !important;
+}
+amp-sidebar {
+	width: 100% !important;
+	max-width:100% !important;
+}
+amp-sidebar div:last-child{
+	background:#000 !important;
+}
+/*header menu end*/
+
+/*footer start*/
+.social-icons-footer {
+    padding: 2%;
+    display: inline-block;
+}
+.partfirst{
+	font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;	
+}
+.copy{
+    color: #797979;
+	float:left;    
+}
+.terms-menu{
+	color:#797979 !important;
+	float:right;		
+}
+.terms-menu > a{
+	width: 100%;
+    color: #797979;	
+}
+ul#menu-footer{
+	padding:0px;	
+}
+
+#footer{
+	padding:0px 0 !important;
+	background:#0E0E0E !important;
+}
+footer{
+	background:#0E0E0E !important;
+	padding-bottom:0px !important;	
+}
+.footer-menu ul li{
+	padding:1px !important;	
+}
+.footer-menu ul li a{
+	color:#797979 !important;	
+}
+.footer-menu ul li:last-child::after { display: none !important;}
+.icon-fb{
+	background-position: 0px 2px;
+    height: 36px;
+    width: 36px;
+    background-size: 100%;	
+	background:url('https://www.nevanta.com/wp-content/themes/nevantanew/img/spritesheet.png') no-repeat;	
+}
+.social-footer{
+	text-align:center;	
+}
+ul.social-icons-footer > li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+}
+.footer-menu ul li:after{
+	color:#797979 !important;	
+}
+/*end footer*/
+.banner_title{
+	top:4% !important;	
+}
+.button_link{
+	top: 6% !important;	
+}
+.video-container h2 {
+    font-family: 'Avenir-Roman';
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/*hide video download button*/
